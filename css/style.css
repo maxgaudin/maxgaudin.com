@@ -101,12 +101,13 @@ body {
 .header_text h1 {
   color: var(--title_color);
   font-size: 2em;
-  margin-top: 4em;
+  margin-top: 6em;
 }
 
 .header_text h2 {
   color: var(--description_color);
-  font-size: 1.5em;
+  font-size: 1.3em;
+  padding: 0.7em 0;
 }
 
 /* Social Media Icons Codes */
@@ -185,12 +186,17 @@ main {
   justify-content: center;
   color: var(--button_text_color);
   background-color: var(--button_background_color);
-  width: 41em;
+  width: 11em;
   margin-top: 1em;
   padding: 0.8em;
   border-radius: 0.3em;
   min-height: 3.7em;
   text-align: center;
+}
+
+.main_text_item a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .main_button_item {
@@ -239,6 +245,7 @@ main {
 .footer_div_item {
   color: var(--footer_text_color);
   background: var(--footer_background_color);
+  font-size: 0.6em;
   padding: 1em;
   margin-top: 1.5em;
 }
@@ -252,7 +259,7 @@ main {
 
 @media (max-width: 768px) { 
   .main_text_item {
-    width: 92vw;
+    width: 42vw;
   }
 
   .main_small_button_item {
