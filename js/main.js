@@ -1,4 +1,4 @@
-/* Menu Active Codes */
+/* Menu Active Code */
 
 let targets = document.querySelectorAll('[data-target]')
 targets.forEach(element => {
