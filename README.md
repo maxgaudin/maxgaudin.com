@@ -1,25 +1,26 @@
-# Demo
+# maxgaudin.com
 
-If you want to see the demo, you can reach the demo by [clicking here](https://ardacarofficial.github.io/links-website/ "ardacarofficial.github.io/links-website/") link.
+Max Gaudin’s personal website, built with static HTML and CSS. No dependencies or build step are required.
 
-![Demo 1](https://ardacarofficial.github.io/links-website/img/demo-img.png)
+## Local preview
 
-
-# Install
-
-First, clone the file with the following command. Then apply the [component](https://github.com/ardacarofficial/links-website/wiki/Component-Settings "component") and [design](https://github.com/ardacarofficial/links-website/wiki/Design-Settings "design") settings. You can check the [wiki](https://github.com/ardacarofficial/links-website/wiki "wiki") for help.
+From the repository root, run:
 
 ```sh
-git clone https://github.com/ardacarofficial/links-website.git
+python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
-You can then upload your files to any hosting.
+Open http://localhost:8000. Refresh after editing files; press Ctrl+C to stop the server.
 
-# Note
+## Editing
 
-Contributions are what make the open source community a great place to learn, inspire and create. Your contributions are greatly appreciated.
+- `index.html`: biography, experience, civic projects, leadership, links, and metadata.
+- `css/style.css`: colors, typography, layout, and mobile styles.
+- `css/reset.css`: browser style reset.
+- `img/`: existing image assets, including the social preview image.
 
-If you have a suggestion to make this better, please fork the repository and create a pull request. You can also open an issue with the "Development" tag. If you want, you can also share it in the [discussions](https://github.com/ardacarofficial/links-website/discussions/ "discussions") section. Don't forget to give stars to the project!
+Before publishing, review role dates and metrics, check project links, and inspect the page at desktop and mobile widths. External links that open a new tab use `rel="noopener noreferrer"`.
 
-# License
-Distributed under the MIT license. See [LICENSE](https://github.com/ardacarofficial/links-website/blob/main/LICENSE "LICENSE") file for more information.
+## License
+
+[MIT](LICENSE).
